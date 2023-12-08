@@ -36,6 +36,5 @@ export const addContact = async (data) => {
     };
     contacts.push(newContact);
     console.log(contacts)
-    // await updateMovies(movies);
-    return newContact;
+     return newContact;
 }
